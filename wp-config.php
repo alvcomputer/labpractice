@@ -25,10 +25,10 @@ define('REVISR_GIT_PATH', 'wp-content/'); // Added by Revisr
 define('DB_NAME', 'entivenc_alv');
 
 /** MySQL database username */
-define('DB_USER', 'entiv_min');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'Torvic2114');
+define('DB_PASSWORD', '123456');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
