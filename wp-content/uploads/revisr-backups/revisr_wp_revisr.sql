@@ -19,12 +19,12 @@ CREATE TABLE `wp_revisr` (
   `event` varchar(42) NOT NULL,
   `user` varchar(60) DEFAULT NULL,
   UNIQUE KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_revisr` WRITE;
 /*!40000 ALTER TABLE `wp_revisr` DISABLE KEYS */;
-INSERT INTO `wp_revisr` VALUES (1,'2015-12-19 15:15:54','Successfully created a new repository.','init','vramh'),(2,'2015-12-19 15:20:05','Successfully backed up the database.','backup','vramh'),(3,'2015-12-19 15:20:07','Committed <a href=\"http://entiven.com/alv/wp-admin/admin.php?page=revisr_view_commit&commit=40987e1&success=true\">#40987e1</a> to the local repository.','commit','vramh'),(4,'2015-12-19 15:20:08','Error pushing changes to the remote repository.','error','vramh'),(5,'2015-12-19 15:26:59','Successfully pushed 1 commit to origin/master.','push','vramh'),(6,'2015-12-19 15:31:52','Successfully backed up the database.','backup','vramh'),(7,'2015-12-19 15:31:52','Committed <a href=\"http://entiven.com/alv/wp-admin/admin.php?page=revisr_view_commit&commit=af8a0a4&success=true\">#af8a0a4</a> to the local repository.','commit','vramh'),(8,'2015-12-19 15:31:56','Successfully pushed 1 commit to origin/master.','push','vramh'),(9,'2015-12-19 17:10:13','Successfully backed up the database.','backup','vramh'),(10,'2015-12-19 17:12:21','Successfully pushed 1 commit to origin/master.','push','vramh');
+INSERT INTO `wp_revisr` VALUES (1,'2015-12-19 15:15:54','Successfully created a new repository.','init','vramh'),(2,'2015-12-19 15:20:05','Successfully backed up the database.','backup','vramh'),(3,'2015-12-19 15:20:07','Committed <a href=\"http://entiven.com/alv/wp-admin/admin.php?page=revisr_view_commit&commit=40987e1&success=true\">#40987e1</a> to the local repository.','commit','vramh'),(4,'2015-12-19 15:20:08','Error pushing changes to the remote repository.','error','vramh'),(5,'2015-12-19 15:26:59','Successfully pushed 1 commit to origin/master.','push','vramh'),(6,'2015-12-19 15:31:52','Successfully backed up the database.','backup','vramh'),(7,'2015-12-19 15:31:52','Committed <a href=\"http://entiven.com/alv/wp-admin/admin.php?page=revisr_view_commit&commit=af8a0a4&success=true\">#af8a0a4</a> to the local repository.','commit','vramh'),(8,'2015-12-19 15:31:56','Successfully pushed 1 commit to origin/master.','push','vramh'),(9,'2015-12-19 17:10:13','Successfully backed up the database.','backup','vramh'),(10,'2015-12-19 17:12:21','Successfully pushed 1 commit to origin/master.','push','vramh'),(11,'2015-12-19 22:50:54','Successfully imported the database. ','import','vramh');
 /*!40000 ALTER TABLE `wp_revisr` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
