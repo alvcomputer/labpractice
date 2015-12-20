@@ -23,7 +23,7 @@ CREATE TABLE `wp_term_relationships` (
 
 LOCK TABLES `wp_term_relationships` WRITE;
 /*!40000 ALTER TABLE `wp_term_relationships` DISABLE KEYS */;
-INSERT INTO `wp_term_relationships` VALUES (1,1,0),(4,1,0);
+INSERT INTO `wp_term_relationships` VALUES (1,1,0),(4,1,0),(7,2,0),(8,2,0),(9,2,0),(10,2,0),(11,2,0);
 /*!40000 ALTER TABLE `wp_term_relationships` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -20,15 +20,15 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('REVISR_WORK_TREE', '/var/www/html/managekei/'); // Added by Revisr
+define('REVISR_WORK_TREE', '/var/www/vhosts/entiven.com/httpdocs/alv/'); // Added by Revisr
 define('REVISR_GIT_PATH', 'wp-content/'); // Added by Revisr
 define('DB_NAME', 'entivenc_alv');
 
 /** MySQL database username */
-define('DB_USER', 'entiv_min');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'Torvic2114');
+define('DB_PASSWORD', '123456');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -80,7 +80,6 @@ $table_prefix  = 'wp_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define('WP_DEBUG', false);
-define('FS_METHOD','direct');
 
 /* That's all, stop editing! Happy blogging. */
 
